@@ -28,13 +28,18 @@
 3. **进入项目文件夹**
    ```bash
    cd rock-paper-scissors
+安装依赖库
 
-4. 安装依赖库
-    pip install opencv-python mediapipe
-   如果遇到权限问题，可以尝试 pip install --user opencv-python mediapipe
-5.运行游戏
-  python RPS.py
-6.退出游戏：在摄像头画面窗口中按下键盘上的 q 键
+bash
+pip install opencv-python mediapipe
+如果遇到权限问题，可以尝试 pip install --user opencv-python mediapipe
+
+运行游戏
+
+bash
+python RPS.py
+退出游戏：在摄像头画面窗口中按下键盘上的 q 键
+
 📂 文件说明
 RPS.py：游戏主程序（完整源代码）
 
